@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+              <!--Bootstrap code-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Webpage</title>
+    </head>
+    <body>
+
+ <h1 id = "titles">
+    Labrador Retreivers
+ </h1>
+        <!--Nav bar code-->
+        <p>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="labrador.html">Labrador Retreivers</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="pictures.html">Pictures</a></li>
+                <li style="float:right"><a class="active" href="about.html">About</a></li>
+              </ul>
+        </p>
+
+
+        <h2 class = "header">
+            Dog Breeds
+        </h2>
+
+        <p class = "akc">
+           There are many different breeds of dogs out there. All these dogs have different personalities and physical features. Some are friendly, some shy, and very energetic.
+            Dogs could be short, tall, or have a stubby tail.
+        </p>
+        <img id = "image" src = "labpic1.jpg" alt = "Yellow Labrador Retreiver">
+
+        <p class = "akc">
+            Dogs have been being bred for a long time. These dogs have evolved and now there are many new breeds. Such as the golden doodle, a mix between a standard poodle and a golden retriever.
+        </p>
+
+
+    <h2 class = "header">
+        Labrador Retreiver
+    </h2>
+
+    <p class = "akc">
+        Yellow Labradors are the cutest dogs ever. They are a yellow golden color, almost like a croissant, with floppy ears. These dogs were bred to retireve ducks
+            from the water when its owner would shoot it down. They originally came from the British and are a medium-large breed and come in different varieties such as the Yellow,
+            Chocolate, and the Black Labrador Retriever.
+            These dogs are <em>very</em> helpful to society and some are even famous. Some of these famous dogs are Endal(Service Dog), Frida(Search and Rescue Dog),
+        and Zanjeer(Detection Dog).
+    </p>
+        <h2 class = "header">
+            Other Websites
+        </h2>
+<p class = "akc">
+    Below I have listed some official websites if you want more information about other dog breeds.
+</p>
+           <!--Javascript buttons-->
+        <script>
+            function visitPage(){
+                window.location='https://www.akc.org';
+            }
+        </script>
+        <button id = "button" onclick = "visitPage();">Amercian Kennel Club</button>
+
+        <script>
+            function visitPage(){
+                window.location='https://www.purina.com';
+            }
+        </script>
+        <button id = "button" onclick = "visitPage();">Purina</button>
+
+        <script>
+            function visitPage(){
+                window.location='https://dogtime.com';
+            }
+        </script>
+        <button id = "button" onclick = "visitPage();">DogTime</button>
+
+      </body>
+</html>
