@@ -1,0 +1,225 @@
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+  li a:hover {
+    background-color: white;
+    color: darkgreen;
+  }
+
+  .header {
+
+    text-decoration: bold;
+    margin: 10px;
+    font-family: georgia;
+    color: rgb(70, 129, 82);
+  }
+
+  #image {
+    border: 10px black;
+    float: right;
+    padding-right: 60px;
+    border-radius: 20px;
+    padding-left: 10px;
+  }
+
+  #button {
+    background-color: darkgreen;
+    border: 2px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    margin: 10px;
+  }
+
+  .akc {
+    margin: 10px;
+    font-family: georgia;
+  }
+
+  #labrador {
+    font-family: sans-serif;
+    margin: 10px;
+  }
+
+  #labs {
+    margin: 10px;
+    font-family: georgia;
+    color: darkgreen;
+    margin-bottom: 40px;
+    text-decoration: bold;
+  }
+
+  #details {
+    margin: 10px;
+    font-family: georgia;
+
+  }
+
+  #roxie {
+    color: darkgreen;
+    font-family: serif;
+    margin: 10px;
+  }
+
+  #hazel {
+    color: rgb(99, 127, 25);
+  }
+
+  #me {
+    font-family: georgia;
+    color: rgb(70, 129, 82);
+    margin: 10px;
+    padding: 10px;
+  }
+
+  #emma {
+    font-family: georgia;
+    margin: 10px;
+  }
+
+  .toys {
+    text-align: center;
+    font-family: serif;
+    color: darkgreen;
+  }
+
+  .right {
+    padding: 10px;
+    margin: 85px;
+    width: 20%;
+    box-shadow: inset gray 0 0 0 3px;
+
+  }
+
+  #roxiepic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 12px;
+    padding-bottom: 12px;
+  }
+
+  table, th, td {
+    border-collapse: collapse;
+    border: 3px solid black;
+    text-align: center;
+    margin: 10px;
+  }
+
+  #doggies {
+    margin: 10px;
+    font-family: georgia;
+  }
+
+  #title {
+    font-family: georgia;
+    color: darkgreen;
+    margin: 10px;
+    padding-top: 10px;
+  }
+
+  #green {
+    color: darkgreen;
+
+  }
+
+  .underline {
+    text-decoration: underline;
+  }
+
+
+  .treats {
+    text-align: center;
+    font-family: serif;
+    color: darkgreen;
+  }
+
+  #button2 {
+    background-color: rgb(70, 129, 82);
+    border: 2px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #a {
+    font-family: georgia;
+    text-align: center;
+    padding: 40px;
+    color: darkgreen;
+    font-size: 20px;
+  }
+
+  #guidedog {
+    border-style: double;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+
+  #titles {
+    text-align: center;
+    padding-top: 10px;
+    color: darkgreen;
+    font-family: georgia;
+    text-decoration: underline;
+  }
+
+  .dropdown {
+    float: top;
+  }
+
+  #dropdownMenuLink {
+    background-color: darkgreen;
+    margin: 10px;
+  }
+
+  .pics {
+    padding: 10px;
+    margin: 15px;
+    box-shadow: inset rgb(70, 129, 82) 0 0 0 5px;
+  }
+
+  #coat {
+    font-family: georgia;
+    color: darkgreen;
+    padding-top: 50px;
+    margin: 10px;
+  }
+
+  #coats {
+    font-family: georgia;
+    color: darkgreen;
+    margin: 10px;
+  }
